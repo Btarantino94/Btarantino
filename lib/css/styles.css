@@ -56,7 +56,19 @@ nav {
  	padding: 20 20 20 20;
 	width: auto;
 	height: auto;
- 	position: relative;
+ 	position: fixed;
+}
+.footerin{
+ 	padding: 20 20 20 20;
+	width: auto;
+	height: auto;
+ 	position: fixed;
+}
+.footerrth{
+ 	padding: 20 20 20 20;
+	width: auto;
+	height: auto;
+ 	position: fixed;
 }
 
 
@@ -145,10 +157,10 @@ nav {
 }
 /*resume ends*/
 #gallery{
-	margin-left:50%;
-	margin-right:50%;
-	margin-top: 100%;
-	margin-bottom: 100%;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 img.gallery-photos{
 	display: inline-block;
