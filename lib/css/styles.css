@@ -144,17 +144,19 @@ nav {
 	text-align: center;
 }
 /*resume ends*/
-
-img.gallery-photos{
-    margin: 100px;
-    border: 16px solid #ccc;
-    width: 20px;
-    height:40px;
-    padding: 50px 150px;
+#gallery{
+	margin-left:50%;
+	margin-right:50%;
+	margin-top: 100%;
+	margin-bottom: 100%;
 }
 img.gallery-photos{
-    max-width: 30px;
-    max-height: 50px;
+	display: inline-block;
+    border: 30px solid #ccc;
+    width: 20px;
+    height:40px;
+    max-width: 40px;
+    max-height: 60px;
 }
 
 
