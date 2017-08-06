@@ -155,13 +155,18 @@ nav {
 	font-family: 'Oswald', sans-serif;
 }
 
-
+.resume-hero__headline{
+	text-align: center;
+	position: relative;
+	padding-left: 30px;
+	padding-right: 0;
 	/*resume text*/
-#resume-top{
-	text-align: center;
 }
-#Resume-body{
+#resume-top{
+	margin: 40px;
 	text-align: center;
+	font-size: 25px;
+	position: relative;
 }
 /*resume ends*/
 
@@ -188,25 +193,36 @@ nav {
 
 
 /*gallery ends*/
-
+.codepen-bod{
+	margin: 20px;
+	background: #B2B9BF;
+	position: relative;
+	padding-left:350;
+	padding-top:150px;
+	padding-bottom:100px;
+	padding-right:350;
+	-webkit-columns: 100px 3;
+	-moz-columns: 100px 3;
+	columns: 100px 2;
+	display: inline-block;
+}
 .challenge-hero_headline{
 	text-align: center;
-	font-size: 20px	
-	padding-top: 6vh;
-	padding-bottom: 4vh;
-	padding-left: 5vh;
-	padding-right: 5vh;
+	display: inline-block;
+	font-size: 20px;
+	padding-top: 300px;
+	padding-bottom: 200px;
+	padding-left: 400px;
+
 }
 
 .daily{
-	-webkit-columns: 100px 3;
-	-moz-columns: 100px 3;
-	columns: 100px 3;
+text-align: center;
+list-style-type: none;
 }
 .weekly{
-	-webkit-columns: 100px 3;
-	-moz-columns: 100px 3;
-	columns: 100px 3;
+text-align: center;
+list-style-type: none;
 }
 /*code page end*/
 
