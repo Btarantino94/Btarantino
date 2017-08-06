@@ -16,8 +16,8 @@
 /*logo end*/
 nav {
 	position: absolute;
-	right: 0;
-	top: 8;
+	right: 0px;
+	top: 10px;
 }
 
 .topnav {
@@ -33,13 +33,14 @@ nav {
 }
 .topnav li a {
 	text-decoration: none;
-	padding: 6px 20px;
+	display: inline-block;
+	padding: 20px 20px;
 }
 
 .topnav-dropdown {
 	display: none;
 	position: absolute;
-	top: 40px;
+	top: 50px;
 	left: 0;
 	background: white;
 	padding: 20px;
@@ -52,23 +53,27 @@ nav {
 }
 /*nav end*/
 
-.footerfb{
- 	padding: 20 20 20 20;
-	width: auto;
-	height: auto;
- 	position: fixed;
+.icon-container {
+	display: inline-block;
 }
-.footerin{
- 	padding: 20 20 20 20;
-	width: auto;
-	height: auto;
- 	position: fixed;
+
+.social-img {
+	position: relative;
+ 	display: inline-block;
+ 	vertical-align: top;
 }
-.footerrth{
- 	padding: 20 20 20 20;
-	width: auto;
-	height: auto;
- 	position: fixed;
+
+.in-icon-img{
+	width: 70px;
+	height: 70px;
+}
+.fb-icon-img{
+	width: 70px;
+	height: 70px;
+}
+.rth-icon-img{
+	width: 300px;
+	height: 90px;
 }
 
 
@@ -100,10 +105,13 @@ nav {
 
 
 .homepage-hero__headline {
-	padding-top: 30vh;
+	padding-top: 6vh;
+	padding-bottom: 4vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
 	color: #2A80BF;
 	line-height: 1;
-	font-size: 75px;
+	font-size: 70px;
 	text-align: center;
 	text-shadow: 1px 5px 1px rgba(0,0,0,.1);
 }
@@ -117,14 +125,14 @@ nav {
 	font-size: 30px;
 	font-family: 'Poppins', sans-serif;
 	padding: 20 20 20 20;
-	color: #1A7F33;
+	color: #47A1BF;
 	text-shadow: 2px 2px #EFFFFD;
 }
 .container{
 	text-align: center;
 	font-size: 40px;
 	font-family: 'Poppins', sans-serif;
-	color: #1A7F33;
+	color: #47A1BF;
 	text-shadow: 2px 2px #EFFFFD;
 	padding: 30 30 30 30;
 }
@@ -156,20 +164,57 @@ nav {
 	text-align: center;
 }
 /*resume ends*/
+
+.gallery-photos {
+	text-align: center;
+}
+
 #gallery{
 	margin-left:50px;
 	margin-right:50px;
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
-img.gallery-photos{
+
+.gallery-photos {
 	display: inline-block;
-    border: 30px solid #ccc;
-    width: 20px;
-    height:40px;
-    max-width: 40px;
-    max-height: 60px;
+	overflow: hidden;
+	margin: 0 1% 60px;
+	text-align: center;
+	width: 30%;
+	position: relative;
+	vertical-align: top;
 }
 
 
 /*gallery ends*/
+
+.challenge-hero_headline{
+	text-align: center;
+	font-size: 20px	
+	padding-top: 6vh;
+	padding-bottom: 4vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+}
+
+.daily{
+	-webkit-columns: 100px 3;
+	-moz-columns: 100px 3;
+	columns: 100px 3;
+}
+.weekly{
+	-webkit-columns: 100px 3;
+	-moz-columns: 100px 3;
+	columns: 100px 3;
+}
+/*code page end*/
+
+
+
+
+
+
+
+
+
