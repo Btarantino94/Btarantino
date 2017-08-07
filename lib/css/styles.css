@@ -6,16 +6,18 @@
 and (min-color-index: 100){
 }
 }*/
-
-@media screen and (max-width: 600px) {
-	h1 {
+@media only screen and (max-width: 500px) {
+    body {
+        h1
 		font-size: 20px;
 	}
 
 	nav {
 		display: none;
 	}
+    }
 }
+
 
 
 /*tablet size = 820px max width*/
