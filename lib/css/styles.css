@@ -1,7 +1,14 @@
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+@media only screen 
+	and (min-device-width: 320px) 
+	and (max-device-width: 568px)
+	and (-webkit-min-device-pixel-ratio: 2) 
+and (min-color-index: 100){
+}
+}
 
 
-
-/* tablet size = 820px max width */
+/*tablet size = 820px max width*/
 
 .align-left { text-align: left; }
 .align-right { text-align: right; }
@@ -33,11 +40,12 @@ nav {
 }
 .topnav li a {
 	text-decoration: none;
+	color: #000;
 	display: inline-block;
 	padding: 20px 20px;
 }
 
-.topnav-dropdown {
+.topnav-dropdown{
 	display: none;
 	position: absolute;
 	top: 50px;
@@ -59,33 +67,35 @@ nav {
 
 .social-img {
 	position: relative;
- 	display: inline-block;
- 	vertical-align: top;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .in-icon-img{
 	width: 70px;
 	height: 70px;
 }
+
 .fb-icon-img{
 	width: 70px;
 	height: 70px;
 }
+
 .rth-icon-img{
 	width: 300px;
 	height: 90px;
-}
+}/*icon end*/
 
 
-#homepage-hero div { 
-  width: 680px;
-  padding: 10px 25px;
-  margin: 50px auto;
-  border-radius: 7px;
-  background: rgba(255, 255, 255, 0.4); 
-  color: #1F1F1F;
-}
-/* backgrounds */
+#homepage-hero div{ 
+	width: 680px;
+	padding: 10px 25px;
+	margin: 50px auto;
+	border-radius: 7px;
+	background: rgba(255, 255, 255, 0.4); 
+	color: #1F1F1F;
+}/* homepage backgrounds */
+
 	.day { 
 		padding: 20px;
 		background: url('../img/day.jpg'); 
@@ -116,59 +126,134 @@ nav {
 	text-shadow: 1px 5px 1px rgba(0,0,0,.1);
 }
 
-.homepage-hero__tagline {
-	color: #FFF;
-	font-size: 32px;
-}
 .homepage-about{
 	text-align: center;
 	font-size: 30px;
 	font-family: 'Poppins', sans-serif;
 	padding: 20 20 20 20;
-	color: #47A1BF;
+	color: #000;
 	text-shadow: 2px 2px #EFFFFD;
 }
+
 .container{
 	text-align: center;
 	font-size: 40px;
 	font-family: 'Poppins', sans-serif;
-	color: #47A1BF;
-	text-shadow: 2px 2px #EFFFFD;
+	color: #000;
+	text-shadow: 2px 2px #fff;
 	padding: 30 30 30 30;
+}/*homepage end*/
+
+#bio{
+	background-color: #C6F7FF; 
 }
-/*homepage end*/
+
 #biography-hero{
 	background: url(../img/leaf.jpeg) 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 680px;
-  	padding: 100px 250px;
-	height: 350px;
+	width: 1000px;
+	padding: 100px 250px;
+	height: 150px;
 	}
+
 .biography-hero_headline{
-	text-align: center;
-	font-size: 20px
+	margin: 0;
+	margin-top: 6px;
+	border: 0;
+	font-size: 100%;
+	color: ;
+	font: inherit;
+	vertical-align: baseline;
 }
+
+#bio-photo img{
+	display: inline-block;
+	padding-left: 510px;
+	padding-right: 140px;
+	width: 400px;
+	height: 260px;
+	
+}
+
 .bio-article{
 	text-align: center;
 	font-size: 25px;
 	font-family: 'Oswald', sans-serif;
+}/*bio page end*/
+
+#life-goals{
+	background-color: #92C6CC; 
 }
 
-.resume-hero__headline{
+#life-title{
+	margin: 20px;
+	font-size: 30px;
 	text-align: center;
-	position: relative;
-	padding-left: 30px;
-	padding-right: 0;
-	/*resume text*/
 }
-#resume-top{
+
+.life-goal-hero__headline{
+	margin: 0px;
+	margin-top:90px;
+	border: 0;
+	font-size: 100%;
+	color: ;
+	font: inherit;
+	vertical-align: baseline;
+	}
+
+.life-list{
 	margin: 40px;
 	text-align: center;
 	font-size: 25px;
 	position: relative;
+}/*lifegoals end*/
+
+#hobbies{
+	background-color: #92C6CC; 
 }
-/*resume ends*/
+
+#hobbie-title{
+	margin: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.hobbie-hero__headline{
+	margin: 0px;
+	margin-top:90px;
+	border: 0;
+	font-size: 100%;
+	color: ;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.hobbie-list{
+	margin: 40px;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+}/*hobbie end*/
+
+.resume-hero__headline{
+	margin: 40px;
+	margin-top:100px;
+	border: 0;
+	font-size: 35px;
+	text-align: center;
+	font: inherit;
+	vertical-align: baseline;
+}
+#resume-page{
+	background-color: #C6F7FF;
+}
+#resume-body{
+	margin: 40px;
+	text-align: center;
+	font-size: 23px;
+	position: relative;
+}/*resume ends*/
 
 .gallery-photos {
 	text-align: center;
@@ -179,6 +264,7 @@ nav {
 	margin-right:50px;
 	margin-top: 100px;
 	margin-bottom: 100px;
+	background-color: #C6F7FF;
 }
 
 .gallery-photos {
@@ -190,20 +276,18 @@ nav {
 	position: relative;
 	vertical-align: top;
 }
+.gallery-hero_headline{
+	padding: 30px 30px 30px 30px;
+}/*gallery ends*/
 
-
-/*gallery ends*/
 .codepen-bod{
-	margin: 20px;
-	background: #B2B9BF;
+	margin: 30px;
+	background: #C6F7FF;
 	position: relative;
 	padding-left:350;
 	padding-top:150px;
 	padding-bottom:100px;
 	padding-right:350;
-	-webkit-columns: 100px 3;
-	-moz-columns: 100px 3;
-	columns: 100px 2;
 	display: inline-block;
 }
 .challenge-hero_headline{
@@ -213,24 +297,51 @@ nav {
 	padding-top: 300px;
 	padding-bottom: 200px;
 	padding-left: 400px;
-
 }
 
-.daily{
-text-align: center;
-list-style-type: none;
+.daily {
+	text-align: center;
+	list-style-type: none;
+	font-size: 20px;
 }
-.weekly{
-text-align: center;
-list-style-type: none;
+.saturday {
+	text-align: center;
+	list-style-type: none;
+	font-size: 20px;
 }
-/*code page end*/
+.weekly {
+	text-align: center;
+	list-style-type: none;
+	font-size: 20px;
+}
+.daily a{
+	color:#64676E;
+}
 
+.saturday a{
+	color:#64676E;
+}
 
+.weekly a{
+	color:#64676E;
+}/*challenge page end*/
 
-
-
-
-
-
+#contact-page{
+	background-color: #C6F7FF;
+}
+#contact-hero div h1{
+	margin: 100px;
+	margin-top:90px;
+	border: 0;
+	font-size: 100%;
+	color: ;
+	font: inherit;
+	vertical-align: baseline;
+}
+.contact-container{
+	margin: 100px;
+	text-align: center;
+	font-size: 23px;
+	position: relative;
+}
 
