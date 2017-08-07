@@ -1,10 +1,20 @@
-@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+/*@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
 @media only screen 
 	and (min-device-width: 320px) 
 	and (max-device-width: 568px)
 	and (-webkit-min-device-pixel-ratio: 2) 
 and (min-color-index: 100){
 }
+}*/
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 20px;
+	}
+
+	nav {
+		display: none;
+	}
 }
 
 
@@ -96,21 +106,21 @@ nav {
 	color: #1F1F1F;
 }/* homepage backgrounds */
 
-	.day { 
-		padding: 20px;
-		background: url('../img/day.jpg'); 
-		
-	}
+.day { 
+	padding: 20px;
+	background: url('../img/day.jpg'); 
+	
+}
 
-	.sunset { 
-		padding: 20px;
-		background: url('../img/sunset.jpg');			
-	 }
+.sunset { 
+	padding: 20px;
+	background: url('../img/sunset.jpg');			
+ }
 
-	.night { 
-		padding: 20px;
-		background: url('../img/nighttime.jpg');  
-	}
+.night { 
+	padding: 20px;
+	background: url('../img/nighttime.jpg');  
+}
 
 
 
@@ -131,6 +141,7 @@ nav {
 	font-size: 30px;
 	font-family: 'Poppins', sans-serif;
 	padding: 20 20 20 20;
+	margin-bottom:30px;
 	color: #000;
 	text-shadow: 2px 2px #EFFFFD;
 }
@@ -341,7 +352,25 @@ nav {
 .contact-container{
 	margin: 100px;
 	text-align: center;
-	font-size: 23px;
+	font-size: 13px;
 	position: relative;
 }
+
+
+/* form */
+.form-input, .form-textbox {
+	display: block;
+}/*.form-input*/
+
+.form-label {
+	font-size: 13px;
+	display: block;
+}/*.form-label*/
+
+.form-input {
+	display: block;
+	margin: 0 auto 20px;
+}/*.form-input*/
+
+/*contact ends*/
 

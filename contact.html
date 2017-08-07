@@ -1,60 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <link type="text/css" rel="stylesheet" href="lib/css/reset.css"/>
-      <link type="text/css" rel="stylesheet" href="lib/css/styles.css"/>
-      <script src="https://www.w3schools.com/lib/w3.js"></script>
-      <title>Britanny Tarantino's contact</title>
-    </head>
-  <body id="contact-page">
-  
-      <!-- Header Include -->
-      <div w3-include-html="/template/header.html"></div> 
-      <!-- Header Include -->
+ <head>
+    <link type="text/css" rel="stylesheet" href="lib/css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="lib/css/styles.css"/>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <title>Britanny Tarantino's contact</title>
+ </head>
+ <body id="contact-page">
 
-        <section id="contact-hero">
-      <div class="container align-center">
-              <h1 class="contact-hero__headline">Try to be a rainbow in someone's cloud. -Maya Angelou</h1>
-             
-      </div><!-- container -->
-        </section><!-- contact-hero -->
-      <div class="contact-container">
-         <form action="/action_page.php">
-      <div>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      </div>
-      <div>
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      </div>
-      <div>
-            <label for="num">Phone Number</label>
-            <input type="text" id="num" name="num" placeholder="Phone number..">
-      </div>
-      <div>
-            <label for="mail">Email</label>
-            <input type="text" id="mail" name="mail" placeholder="Email..">
-      <div>
-            <label for="comment">Feel free to leave questions/comments:</label>
-            <textarea id="comment" name="comments" placeholder="Write something here.." style="height:200px">
-            </textarea>
-      </div>
+  <!-- Header Include -->
+  <div w3-include-html="/template/header.html"></div>
+  <!-- Header Include -->
 
-            <input type="submit" value="Submit">
-          </form>
-      </div><!-- contact form end-->
-       
+  <section id="contact-hero">
+    <div class="container align-center">
+      <h1 class="contact-hero__headline">Try to be a rainbow in someone's cloud. -Maya Angelou</h1>
 
-      <!-- Footer Include -->
-      <div w3-include-html="/template/footer.html"></div> 
-      <!-- Footer Include -->
+      <form action="/action_page.php">
+        <div class="form-input">
+          <label for="fname" class="form-label">First Name</label>
+          <input type="text" id="fname" class="form-input" name="firstname" placeholder="Your name..">
+        </div>
 
+        <div class="form-input">
+          <label for="lname" class="form-label">Last Name</label>
+          <input type="text" id="lname" class="form-input" name="lastname" placeholder="Your last name..">
+        </div>
 
-      <script>
-        w3.includeHTML();
-      </script>
+        <div class="form-input">
+          <label for="num" class="form-label">Phone Number</label>
+          <input type="text" id="num" class="form-input" name="num" placeholder="Phone number..">
+        </div>
 
+        <div class="form-input">
+          <label for="mail" class="form-label">Email</label>
+          <input type="text" id="mail" class="form-input" name="mail" placeholder="Email..">
+        </div>
 
-  </body>
+        <div class="form-textbox">
+          <label for="comment" id="comment-title" class="form-label">Feel free to leave questions/comments:</label>
+          <textarea id="comment" name="comments" placeholder="Write something here.." style="height:200px"></textarea>
+        </div>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div><!-- container -->
+  </section>
+
+  <!-- Footer Include -->
+  <div w3-include-html="/template/footer.html"></div>
+  <!-- Footer Include -->
+
+  <script>
+     w3.includeHTML();
+  </script>
+
+ </body>
 </html>
