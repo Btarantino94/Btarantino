@@ -3,14 +3,32 @@
 <head>
   <link type="text/css" rel="stylesheet" href="/biography/lib/css/reset.css"/>
   <link type="text/css" rel="stylesheet" href="/biography/lib/css/styles.css"/>
-  <script src="https://www.w3schools.com/lib/w3.js"></script>
+
   <title>Britanny Tarantino's code life goals</title>
 </head>
 <body id="life-goals">
 
-  <!-- Header Include -->
-  <div w3-include-html="/template/header.html"></div> 
-  <!-- Header Include -->
+    <header>
+      <div class="container align-left">
+        <h1><img src="/biography/lib/img/lo.png" class="logo"></h1>
+        <nav>
+          <ul class="topnav">
+            <li><a href="/biography/">home</a></li>
+            <li>
+              <a href="/biography/biography.html" class="dropdown-button">biography</a>
+              <ul class="topnav-dropdown">
+                <li><a href="/biography/hobbies.html">hobbies</a></li>
+                <li><a href="/biography/lifegoals.html">lifegoals</a></li>
+              </ul> <!--dropdown -->
+            </li>
+            <li><a href="/biography/gallery.html">gallery</a></li>
+            <li><a href="/biography/resume.html">resume</a></li>
+            <li><a href="/biography/codech.html">code Challenges</a></li>
+            <li><a href="/biography/contact.html">contact Page</a></li>
+          </ul>  <!-- topnav -->
+        </nav>
+      </div> <!--container-->
+    </header>
 
   <section id="life-goal-hero">
     <div class="container align-center">
@@ -34,13 +52,30 @@
     </div><!-- life-list -->
   </section>
 
-  <!-- Footer Include -->
-    <div w3-include-html="/template/footer.html"></div> 
-  <!-- Footer Include -->
+  <footer>
+    <div class="icon-container">
+      <a href="https://www.facebook.com/britanny.cadle.1">
+        <img src="/biography/lib/img/icon-fb.png" class="social-img fb-icon-img" alt="facebook">
+      </a></div><!-- footerfb -->
 
-  <script>
-    w3.includeHTML();
-  </script>
+    <div class="icon-container">
+      <a href="https://www.linkedin.com/in/britanny-tarantino-499a50108/">
+        <img src="/biography/lib/img/icon-in.png" class="social-img in-icon-img" alt="linkedin">
+      </a></div><!-- footerin -->
+
+    <div class="icon-container">
+      <a href="https://freephotos.cc/">
+        <img src="/biography/lib/img/zallery/cc.png" class="social-img in-icon-img" alt="cc">
+      </a></div><!-- footercc -->
+
+    <div  class="icon-container">
+      <a href="http://roadtohire.org/">
+        <img src="https://daks2k3a4ib2z.cloudfront.net/5750a0483c241ee12e0292b4/587a69bbbec7bc4e039d1d24_logo-white.svg" class="social-img rth-icon-img" alt="roadtohire logo">
+      </a>
+    </div><!-- footerrth -->
+    <p>This webpage is for educational purposes only.</p>
+  </footer> 
+
 
     <script src="/biography/lib/js/jsfilehere.js"></script>
 

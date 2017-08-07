@@ -4,14 +4,32 @@
   <link type="text/css" rel="stylesheet" href="/biography/lib/css/reset.css"/>
   <link type="text/css" rel="stylesheet" href="/biography/lib/css/styles.css"/>
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  
   <title>Britanny Tarantino's Home</title>
 </head>
 <body class="night">
   
-  <!-- Header Include -->
-  <div w3-include-html="template/header.html"></div> 
-  <!-- Header Include -->
+ <header>
+    <div class="container align-left">
+      <h1><img src="/biography/lib/img/lo.png" class="logo"></h1>
+      <nav>
+        <ul class="topnav">
+          <li><a href="/biography/">home</a></li>
+          <li>
+            <a href="/biography/biography.html" class="dropdown-button">biography</a>
+            <ul class="topnav-dropdown">
+              <li><a href="/biography/hobbies.html">hobbies</a></li>
+              <li><a href="/biography/lifegoals.html">lifegoals</a></li>
+            </ul> <!--dropdown -->
+          </li>
+          <li><a href="/biography/gallery.html">gallery</a></li>
+          <li><a href="/biography/resume.html">resume</a></li>
+          <li><a href="/biography/codech.html">code Challenges</a></li>
+          <li><a href="/biography/contact.html">contact Page</a></li>
+        </ul>  <!-- topnav -->
+      </nav>
+    </div> <!--container-->
+</header>
 
   <section id="homepage-hero">
     <div class="container align-center">
@@ -30,14 +48,29 @@
       <p>I'm currently participating in the Road2Hire Tech program. Road2Hire provides professional training, development and job placement for high potential individuals with a drive for success. Their mission is to provide young adults with the opportunity to have a career. I joined to become a front end developer. Road2Hire inspires people to do better and to want better.</p>
     </div><!-- container -->
   </section><!-- homepage__rth -->
+  <footer>
+    <div class="icon-container">
+      <a href="https://www.facebook.com/britanny.cadle.1">
+        <img src="/biography/lib/img/icon-fb.png" class="social-img fb-icon-img" alt="facebook">
+      </a></div><!-- footerfb -->
 
-  <!-- Header Include -->
-  <div w3-include-html="template/footer.html"></div> 
-  <!-- Header Include -->
+    <div class="icon-container">
+      <a href="https://www.linkedin.com/in/britanny-tarantino-499a50108/">
+        <img src="/biography/lib/img/icon-in.png" class="social-img in-icon-img" alt="linkedin">
+      </a></div><!-- footerin -->
 
-  <script>
-    w3.includeHTML();
-  </script>
+    <div class="icon-container">
+      <a href="https://freephotos.cc/">
+        <img src="/biography/lib/img/zallery/cc.png" class="social-img in-icon-img" alt="cc">
+      </a></div><!-- footercc -->
+
+    <div  class="icon-container">
+      <a href="http://roadtohire.org/">
+        <img src="https://daks2k3a4ib2z.cloudfront.net/5750a0483c241ee12e0292b4/587a69bbbec7bc4e039d1d24_logo-white.svg" class="social-img rth-icon-img" alt="roadtohire logo">
+      </a>
+    </div><!-- footerrth -->
+    <p>This webpage is for educational purposes only.</p>
+  </footer> 
 
   <script src="/biography/lib/js/jsfilehere.js"></script>
   
