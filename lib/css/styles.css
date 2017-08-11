@@ -6,10 +6,10 @@
 and (min-color-index: 100){
 }
 }*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     body {
         h1
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	.logo {
@@ -18,7 +18,7 @@ and (min-color-index: 100){
 		left: 0;
 		top: 0;
 	}
-	
+
 	nav {
 	    right: 0px;
 	    position: relative;
