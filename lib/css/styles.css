@@ -12,10 +12,30 @@ and (min-color-index: 100){
 		font-size: 20px;
 	}
 
-	nav {
-		display: none;
+	.logo {
+		height: 88px;
+		position: relative;
+		left: 0;
+		top: 0;
 	}
-    }
+	
+	nav {
+	    right: 0px;
+	    position: relative;
+	    clear: both;
+	    top: 10px;
+	    display: block;
+	    width: 100%;
+	}
+
+	.topnav {
+		position: relative;
+		font-size: 20px;
+	}
+
+	.topnav li a {
+		padding: 20px 10px;
+	}
 }
 
 
