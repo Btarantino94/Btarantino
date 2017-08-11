@@ -13,10 +13,11 @@ and (min-color-index: 100){
 	}
 
 	.logo {
-		height: 88px;
+/*		height: 88px;
 		position: relative;
 		left: 0;
-		top: 0;
+		top: 0;*/
+		display: none;
 	}
 
 	nav {
