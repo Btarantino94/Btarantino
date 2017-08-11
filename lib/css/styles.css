@@ -51,8 +51,6 @@ and (min-color-index: 100){
 nav {
     display: inline-block;
     margin: 0 auto;
-    position: relative;
-    top: -40px;
 }
 
 .topnav {
