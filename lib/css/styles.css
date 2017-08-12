@@ -166,18 +166,13 @@ nav li {
 }
 
 #biography-hero{
-	background: url(../img/leaf.jpeg) 50% 50%;
+	background: url(../img/leaf.jpg) 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 150px;
 	}
 
-.biography-hero__headline{
-	font-size: 100%;
-	vertical-align: baseline;
-	padding-top: 55px;
-	color: #A15124;
-}
+
 
 #bio-photo img{
 	padding-left: 38%;
