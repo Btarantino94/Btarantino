@@ -1,23 +1,20 @@
-/*@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-@media only screen 
-	and (min-device-width: 320px) 
-	and (max-device-width: 568px)
-	and (-webkit-min-device-pixel-ratio: 2) 
-and (min-color-index: 100){
+
+*{
+	box-sizing: border-box;
 }
-}*/
-@media only screen and (max-width: 800px) {
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
     body {
-        h1
 		font-size: 15px;
 	}
 	nav {
-	    right: 0px;
+		margin: 0 auto;
+	    xright: 30%;
 	    position: relative;
 	    clear: both;
 	    top: 10px;
-	    display: block;
 	    width: 100%;
+	    display: inline-block;
 	}
 
 	.topnav {
@@ -27,13 +24,13 @@ and (min-color-index: 100){
 
 	.topnav li a {
 		padding: 20px 10px;
+		text-align: center;
+		display: inline-block;
 	}
+
 }
 
-@media only screen and (max-width: 1200px) {
-    .logo {
-        display:none;
-	}
+
 }
 
 
@@ -43,9 +40,8 @@ and (min-color-index: 100){
 .align-right { text-align: right; }
 .align-center { text-align: center; }
 
-.logo {
-    height: 88px;
-    display: inline-block;
+.logo-banner{
+	margin: 0 auto;
 }
 /*logo end*/
 nav {
@@ -53,11 +49,15 @@ nav {
     margin: 0 auto;
 }
 
-.topnav {
-	position: relative;
-	font-size: 20px;
-	padding-left: 230px;
+nav li {
+	display: inline-block;
 
+}
+
+.topnav {
+    position: relative;
+    font-size: 20px;
+    padding-left: 100px;
 }
 
 .topnav li {
@@ -68,7 +68,7 @@ nav {
 	text-decoration: none;
 	color: #000;
 	display: inline-block;
-	padding: 20px 20px;
+	padding-right: 20px;
 }
 
 .topnav-dropdown{
@@ -169,28 +169,19 @@ nav {
 	background: url(../img/leaf.jpeg) 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 1000px;
-	padding: 100px 250px;
 	height: 150px;
 	}
 
-.biography-hero_headline{
-	margin: 0;
-	margin-top: 6px;
-	border: 0;
+.biography-hero__headline{
 	font-size: 100%;
-	color: ;
-	font: inherit;
 	vertical-align: baseline;
+	padding-top: 35px;
+	color: #FF8B36;
 }
 
 #bio-photo img{
-	display: inline-block;
-	padding-left: 510px;
-	padding-right: 140px;
-	width: 400px;
-	height: 260px;
-	
+	padding-left: 38%;
+	padding-top: 10px;
 }
 
 .bio-article{
@@ -379,4 +370,22 @@ nav {
 }/*.form-input*/
 
 /*contact ends*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+
+.biography-hero__headline {
+    font-size: 28px;
+}
+
+}
+
+@media screen and (min-width: 480px) {
+	.topnav{
+		padding-bottom: 35px;
+		padding-left: 26px;
+	}
+	.biography-hero__headline{
+			font-size: 91%;	
+	}
+	}
 
