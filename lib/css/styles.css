@@ -196,14 +196,11 @@ nav li {
 }
 
 .life-goal-hero__headline{
-	margin: 0px;
-	margin-top:90px;
-	border: 0;
-	font-size: 100%;
-	color: ;
-	font: inherit;
-	vertical-align: baseline;
-	}
+    text-align: center;
+    font-size: 27px;
+    margin: 9px;
+    margin-bottom: 45px;
+}
 
 .life-list{
 	margin: 40px;
