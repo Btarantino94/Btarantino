@@ -151,7 +151,7 @@ nav li {
 	color: #000;
 	text-shadow: 2px 2px #EFFFFD;
 }
-h3 #homepage__rth{
+h3 .homepage__rth{
 	text-align: center;
 	font-size: 50px;
 	font-family: 'Poppins', sans-serif;
